@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="a" max_length="40" name="x_a_a" type="collection">
+        <element attributes="import_attribute_name=First name,edge_encryption_enabled=true" label="First name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="import_attribute_name=Last name,edge_encryption_enabled=true" label="Last name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="import_attribute_name=Username,edge_encryption_enabled=true" label="Username" max_length="40" name="u_username" type="string"/>
+    </element>
+</database>
